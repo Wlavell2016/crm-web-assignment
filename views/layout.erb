@@ -1,0 +1,39 @@
+~<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/reset.css">
+		 <link rel="stylesheet" type="text/css" href="/styles.css">
+		<meta charset="utf-8">
+		<title>asdasdsad</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class ="header_title">
+					 <h1>Bitmaker CRM</h1>
+				</div>
+					<div class="section1">
+						<a href='/'><h2>Home</h2></a>
+					</div>
+
+					<div class="section1">
+							<a href="/contacts/new"><h2>Add a Contact</h2></a>
+					</div>
+
+					<div class="section1">
+					<a href="/contacts">View all contacts</a>
+					</div>
+					<div class="section1">
+					<a href="/contacts/:id/edit">Edit Contacts</a>
+					</div>
+					<div class="section1">
+						<h2>About</h2>
+					</div>
+			</header>
+			<main>
+				<%= yield %>
+			</main>
+			<footer> Bitmaker 2018 </footer>
+		</div>
+	</body>
+</html>
